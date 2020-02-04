@@ -1,0 +1,14 @@
+{
+  "name": "danielmlc-blog",
+  "description": "danielmlc的博客",
+  "version": "1.0.0",
+  "author": "danielmlc",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "1.2.0",
+    "vuepress-theme-reco": "1.2.0-alpha.15"
+  }
+}
