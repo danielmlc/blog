@@ -2,12 +2,12 @@
  * @Description: 未描述
  * @Author: danielmlc
  * @Date: 2020-02-03 23:28:17
- * @LastEditTime : 2020-02-04 12:35:36
+ * @LastEditTime : 2020-02-04 22:16:09
  */
 module.exports = {
   "title": "danielmlc的博客",
   "description": "信是所见之事的实底 是未见之事的确据",
-  "dest": "public",
+  "base": "/blog/",
   "head": [
     [
       "link",
@@ -79,15 +79,21 @@ module.exports = {
         "link": "http://www.ruanyifeng.com/home.html"
       },
     ],
-    "logo": "/logo.jpg",
+    "logo": "/avatar.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "author": "danielmlc",
     "authorAvatar": "/avatar.jpg",
-    "record": "xxxx",
-    "startYear": "2020"
+    "record": "",
+    "startYear": "2020",
+    "valineConfig": {
+      "appId": "PvVNgnr8a53LpPcuVgrVvdqF-gzGzoHsz",
+      "appKey": "pvXzUKHyM3t5HsnOguiAefnr",
+      "avatar":"identicon",
+      "placeholder": "随便聊聊..."
+    }
   },
   "markdown": {
     "lineNumbers": true

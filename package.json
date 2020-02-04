@@ -5,10 +5,11 @@
   "author": "danielmlc",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "pub": "bash deploy.sh"
   },
   "devDependencies": {
-    "vuepress": "1.2.0",
-    "vuepress-theme-reco": "1.2.0-alpha.15"
+    "vuepress": "1.3.0",
+    "vuepress-theme-reco": "1.2.2"
   }
 }
