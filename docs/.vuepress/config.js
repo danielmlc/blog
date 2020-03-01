@@ -1,9 +1,10 @@
 /*
  * @Description: 未描述
  * @Author: danielmlc
- * @Date: 2020-02-03 23:28:17
- * @LastEditTime : 2020-02-04 22:16:09
+ * @Date: 2020-02-04 21:56:24
+ * @LastEditTime: 2020-03-01 23:52:28
  */
+
 module.exports = {
   "title": "danielmlc的博客",
   "description": "信是所见之事的实底 是未见之事的确据",
@@ -97,5 +98,21 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  "plugins": [
+    [
+      "vuepress-plugin-kan-ban-niang",
+      {
+        theme: ["miku"],
+        clean: true,
+        modelStyle: {
+          position: "fixed",
+          left: "0px",
+          bottom: "0px",
+          opacity: "0.9",
+          zIndex: 99999
+        }
+      }
+    ]
+  ]
 }
