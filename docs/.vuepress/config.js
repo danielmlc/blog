@@ -2,7 +2,7 @@
  * @Description: 未描述
  * @Author: danielmlc
  * @Date: 2020-02-04 21:56:24
- * @LastEditTime: 2020-03-02 01:34:14
+ * @LastEditTime: 2020-03-02 01:09:08
  */
 
 module.exports = {
@@ -108,7 +108,7 @@ module.exports = {
         "modelStyle": {
           "position": "fixed",
           "right": "0px",
-          "top": "100px",
+          "bottom": "0px",
           "opacity": "0.7",
           "zIndex": 99999
         },
