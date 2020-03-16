@@ -2,7 +2,7 @@
  * @Description: 未描述
  * @Author: danielmlc
  * @Date: 2020-02-04 21:56:24
- * @LastEditTime: 2020-03-02 01:09:08
+ * @LastEditTime: 2020-03-16 14:11:59
  */
 
 module.exports = {
@@ -127,6 +127,12 @@ module.exports = {
       {
         "audios": [
           // 网络文件示例
+          {
+            "name": 'valder Fields',
+            "artist": 'valder Fields',
+            "url": '/music/valderFields.flac',
+            "cover": 'https://assets.smallsunnyfox.com/music/2.jpg'
+          },
           {
             "name": '강남역 4번 출구',
             "artist": 'Plastic / Fallin` Dild',
